@@ -1,0 +1,19 @@
+.youtube{
+    height: 500px;
+    width: 1000px;
+}
+
+.fa-regular{
+    font-size: 40px;
+    margin-left: -270px;
+}
+
+.fa-bell{
+    cursor: pointer;
+    color: #ccc;
+    font-size: 2rem;
+    display: block;
+    &.liked{
+        color: yellow;
+    }
+}

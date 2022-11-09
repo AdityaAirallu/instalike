@@ -1,0 +1,16 @@
+.fa-heart{
+    cursor: pointer;
+    color: #ccc;
+    font-size: 2rem;
+    display: block;
+    &.liked{
+        color: deeppink;
+    }
+}
+
+p{
+    display:block;
+    margin-top: -25px;
+    margin-bottom: 1rem;
+}
+

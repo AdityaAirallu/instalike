@@ -1,0 +1,29 @@
+<h1 class="bg-info text-center p-4 text-white">
+   Instagram
+</h1>
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-sm-12">
+      <like
+      [likesCount]="post.likesCount"
+      [isLiked]="post.isLiked">
+      </like>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<h1 class="bg-danger text-white p-4 text-center">
+  Youtube
+</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <youtube
+      [likesCount]="youtube.likesCount"
+      [isLiked]="youtube.isLiked">
+      </youtube>
+    </div>
+  </div>
+</div>

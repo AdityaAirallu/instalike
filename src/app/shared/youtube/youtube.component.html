@@ -1,0 +1,21 @@
+<img class="youtube"src="../../../assets/images/thumbnail.png" alt="video">
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-5 offset-md-3">
+          <div class="row">
+            <div class="col-sm-3">
+                <i class="fa-regular fa-thumbs-up" (click)="onClicked(true)"></i>
+                {{likesCount}}
+            </div>
+            <div class="col-sm-3">
+                <i class="fa-regular fa-thumbs-down" (click)="onClicked(false)"></i>
+            </div>
+            <div class="col-sm-3">
+              <i class="fa-regular fa-bell" [class.liked]="isLiked"
+              (click)="onBellClick()"></i>
+          </div>
+          </div>  
+        </div>
+    </div>
+</div>
